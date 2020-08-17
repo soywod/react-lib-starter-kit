@@ -1,4 +1,5 @@
 module.exports = {
   preset: "ts-jest",
-  testRegex: ".test.tsx$",
+  testRegex: ".(test|spec).tsx$",
+  timers: "fake",
 };
