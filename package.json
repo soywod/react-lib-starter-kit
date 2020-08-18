@@ -23,11 +23,7 @@
   "main": "lib/index.umd.js",
   "module": "lib/index.esm.js",
   "files": [
-    "lib/index.d.ts",
-    "lib/index.esm.js",
-    "lib/index.esm.map.js",
-    "lib/index.umd.js",
-    "lib/index.umd.map.js"
+    "lib"
   ],
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -55,12 +51,12 @@
     "react-dom": "^16.13.1",
     "rollup": "^2.7.2",
     "rollup-plugin-terser": "^7.0.0",
-    "rxjs": "^6.6.0",
     "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "scripts": {
     "prebuild": "rm -rf lib",
